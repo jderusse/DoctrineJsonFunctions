@@ -20,6 +20,10 @@
 		"doctrine/coding-standard": "^8.0 || ^9.0",
 		"phpunit/phpunit": "^8.0 || ^9.0"
 	},
+	"conflict": {
+		"doctrine/orm": "<2.7,>=3.0",
+        "doctrine/dbal": ">=3.0"
+	},
 	"autoload": {
 		"psr-4": {
 			"Scienta\\DoctrineJsonFunctions\\" : "src/"
